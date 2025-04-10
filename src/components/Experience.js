@@ -1,5 +1,5 @@
 import React from "react";
-import JobList from "./JobList";
+import ExperienceList from "./ExperienceList";
 import "../styles/Experience.css";
 import FadeInSection from "./FadeInSection";
 
@@ -24,7 +24,7 @@ class Experience extends React.Component {
           <div className="section-header ">
             <span className="section-title">/ experience</span>
           </div>
-          <JobList></JobList>
+          <ExperienceList></ExperienceList>
         </FadeInSection>
       </div>
     );

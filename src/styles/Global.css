@@ -8,6 +8,6 @@
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
   --white: #e6f1ff;
-  --green-bright: #64ffda;
+  --green-bright: rgba(255, 213, 1, 0.97);
   --green-tint: rgba(100, 255, 218, 0.1);
 }

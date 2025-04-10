@@ -1,8 +1,8 @@
 import React from "react";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import About from "./components/About";
-import Projects from "./components/Projects";
 import Credits from "./components/Credits";
 import NavBar from "./components/NavBar";
 import "./App.css";
@@ -17,7 +17,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Experience></Experience>
-        <Projects></Projects>
+        <Education></Education>
         <Credits></Credits>
       </div>
     </div>

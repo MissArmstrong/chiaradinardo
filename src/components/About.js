@@ -20,26 +20,29 @@ class About extends React.Component {
     const one = (
       <p>
         I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        <a href="https://group.intesasanpaolo.com/en/"> Intesa Sanpaolo</a>, working in the Group Technology
+        sector under Credits team.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        From consulting gigs to backend leadership in fast-paced projects, I’ve seen a bit of everything.
+        Now I’m aiming to grow into more strategic roles—without losing touch with the tech I love.
       </p>
+    );
+    const three = (
+        <p>
+          Outside of work? Gym, books, friends, and the outdoors keep me grounded.
+        </p>
     );
 
     const tech_stack = [
-      "Typescript",
-      "Python",
-      "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
+      "Spring Boot",
+      "Hibernate",
+      "SQL",
+      "Java EE",
+      "C",
+      "Python"
     ];
 
     return (
@@ -62,9 +65,10 @@ class About extends React.Component {
                 })}
               </ul>
               {[two]}
+              {[three]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Chiara Di Nardo" src={"/assets/chiara2.jpg"} />
             </div>
           </div>
         </FadeInSection>

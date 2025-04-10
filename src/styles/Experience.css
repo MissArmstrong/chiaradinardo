@@ -5,21 +5,21 @@
   padding-top: 100px;
 }
 
-.joblist-job-title {
+.experiencelist-experience-title {
   font-family: "NTR", sans-serif;
   font-size: 28px;
   font-weight: bold;
   color: var(--lightest-slate);
 }
 
-.joblist-job-company {
+.experiencelist-experience-company {
   font-family: "NTR", sans-serif;
   font-size: 28px;
   color: var(--green-bright);
   font-weight: bold;
 }
 
-.joblist-duration {
+.experiencelist-duration {
   font-family: "NTR", sans-serif;
   font-size: 18px;
   color: var(--slate);
@@ -63,14 +63,36 @@ ul {
   margin-left: -40px;
 }
 
-.job-description li::before {
+.experience-tech-stack ul {
+  padding-top: 20px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 10px));
+}
+
+.experience-tech-stack li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 18px;
+  font-family: "NTR", sans-serif;
+  color: var(--slate);
+}
+
+.experience-tech-stack li::before {
   content: "▹    ";
   color: var(--green-bright);
   position: absolute;
   left: 0;
 }
 
-.job-description li {
+.experience-description li::before {
+  content: "▹    ";
+  color: var(--green-bright);
+  position: absolute;
+  left: 0;
+}
+
+.experience-description li {
   position: relative;
   padding-left: 30px;
   padding-bottom: 16px;
@@ -78,15 +100,15 @@ ul {
   color: var(--slate);
 }
 
-.job-description {
+.experience-description {
   padding-top: 24px;
   max-width: 650px;
   font-family: "NTR", sans-serif;
   font-size: 20px;
 }
 
-.job-description a,
-.job-description b {
+.experience-description a,
+.experience-description b {
   font-size: 19px;
   font-weight: bold;
 }
@@ -108,11 +130,11 @@ ul {
     flex-direction: column;
   }
 
-  .joblist-job-title {
+  .experiencelist-experience-title {
     font-size: 22px;
   }
 
-  .joblist-job-company {
+  .experiencelist-experience-company {
     font-size: 22px;
   }
 }
