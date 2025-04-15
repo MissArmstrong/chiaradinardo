@@ -86,42 +86,39 @@ const EducationList = () => {
       title: "Certified SAFe 6 Agilist @",
       duration: "MAR 2024",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
+        "Earned the credential from Scaled Agile, Inc., demonstrating a solid understanding of Lean-Agile principles and the ability to lead agile transformations at enterprise scale."
       ]
     },
     "Scrum.org": {
       title: "Professional Scrum Master I @",
       duration: "JAN 2024",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "Certified in the fundamentals of the Scrum framework, including roles, events, and artifacts.",
+        "Confirmed the ability to support agile teams, remove impediments, and foster a collaborative and adaptive work environment."
       ]
     },
     "British Council": {
       title: "IELTS 7.0 @",
       duration: "JAN 2015",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "Successfully completed the IELTS Academic exam with an overall band score of 7.0, demonstrating full professional proficiency in English across listening, reading, writing, and speaking skills."
       ]
     },
     "Politecnico di Torino": {
       title: "Software Engineering @",
       duration: "SEP 2012 - DEC 2018",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        "Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Completed a full academic path in Computer and Software Engineering, combining solid theoretical foundations with practical experience in modern development methodologies.",
+        "During the Master’s, worked on a research thesis in collaboration with Altec S.p.A., focused on using deep neural networks to predict geomagnetic events caused by solar activity, leveraging on satellite and Earth-based sensor data.",
+        "Designed and developed BeeShare, a mobile Android app aimed at simplifying group expense management. The app allowed users to track, split, and settle shared costs in a user-friendly and efficient way."
       ]
     },
     "IIS Luigi Di Savoia": {
-      title: "Software Engineering @",
+      title: "IT Specialist @",
       duration: "SEP 2012 - DEC 2018",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        "Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Graduated as a computer science specialist with a focus on programming, systems architecture, and database design.",
+        "Took part to the Turin Machine Cup at Univerisity of Pisa writing running programs for the Turing Machine to solve the competition's proposed problems."
       ]
     }
   };

@@ -88,10 +88,7 @@ const ExperienceList = () => {
       desc: [
         "Worked as a Software Engineer in Credit division on different projects, involving both frontend and backend developments together with coordinating team members' daily activities to meet the established deadlines."
       ],
-      techList: [
-          "Springboot",
-          "Java"
-      ]
+      techList: []
     },
     Accenture: {
       experienceTitle: "Digital Business Consultant @",
@@ -100,10 +97,7 @@ const ExperienceList = () => {
         "Acquired 2 years of experience specializing in the final reviews and developments of a Payment & Service project.",
         "Assumed, in the following years, the role of backend team leader in an Agile Automative project and drove new initiatives from the initial design stages through their daily implementations for the B2C portal."
       ],
-      techList: [
-        "Springboot",
-        "Java"
-      ]
+      techList: []
     },
     "Teoresi Group": {
       experienceTitle: "Software Engineer @",
@@ -111,10 +105,7 @@ const ExperienceList = () => {
       desc: [
         "Involved in both the development of new projects and maintaining the legacy functionalities as an on-site consultant in a leading satellite operator TelCo company."
       ],
-      techList: [
-        "Springboot",
-        "Java"
-      ]
+      techList: []
     },
     "The World Bank Group": {
       experienceTitle: "IT Analyst Intern @",
@@ -123,10 +114,7 @@ const ExperienceList = () => {
         "Selected as one of the interns for the \"Young Women in Technology\" program, collaborated with an international team on a research project focused on the MarkLogic database.",
         "Developed a user-friendly graphical interface (GUI) to enhance accessibility for individuals working with the database."
       ],
-      techList: [
-        "Springboot",
-        "Java"
-      ]
+      techList: []
     },
     YouDroop: {
       experienceTitle: "Project & DB Manager @",
@@ -135,17 +123,6 @@ const ExperienceList = () => {
         "Collaborated with the tech leader to design the database for the e-commerce portal.",
         "Structured the Java project, implemented its initial functionalities and deploy.",
         "As the team expanded, assumed responsibility for managing new team members, effectively organizing their tasks and deadlines to facilitate smooth and successful development processes."
-      ],
-      techList: [
-        "Springboot",
-        "Java"
-      ]
-    },
-    "Turing Machine Cup": {
-      experienceTitle: "Competitor @",
-      duration: "FEB 2011",
-      desc: [
-        "Wrote running programs for the Turing Machine to solve the competition's proposed problems."
       ],
       techList: []
     }

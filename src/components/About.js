@@ -37,12 +37,12 @@ class About extends React.Component {
     );
 
     const tech_stack = [
-      "Spring Boot",
-      "Hibernate",
-      "SQL",
+      "Spring Framework",
+      "Hibernate ORM",
       "Java EE",
-      "C",
-      "Python"
+      "SQL",
+      "Python",
+      "AWS"
     ];
 
     return (
