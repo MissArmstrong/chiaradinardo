@@ -25,7 +25,7 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <FractalTree></FractalTree>
+        {/*<FractalTree></FractalTree>*/}
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, welcome to "}
